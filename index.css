@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+    margin:20px;
+    padding: 20px;
+    /* width: 1050px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* height: 500px; */
+    position: relative;
+}
+.top{
+    font-size: 50px;
+    margin-left: 60px;
+}
+.first{
+    position: absolute;
+    width: 600px;
+    left: 50px;
+    top: 0px;
+}
+.second{
+    position: absolute;
+    width: 600px;
+    top: 0px;
+    right: 100px;
+}
+.third{
+    position: absolute;
+    width: 600px;
+    left: 50px;
+    top: 220px;
+}
+.fourth{
+    position: absolute;
+    width: 600px;
+    top: 220px;
+    right: 100px;
+}
+.head1{
+    font-weight: bold;
+    font-size: 20px;
+}
