@@ -2,47 +2,36 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* Setting the display properties of the class container */
 .container{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    text-align: justify;
-    margin:20px;
-    padding: 20px;
-    /* width: 1050px; */
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    /* height: 500px; */
-    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
 }
-.top{
-    font-size: 50px;
-    margin-left: 60px;
-}
+
+/* giving the width of the classes */
 .first{
-    position: absolute;
-    width: 600px;
-    left: 50px;
-    top: 0px;
+    width:40%;
 }
+
 .second{
-    position: absolute;
-    width: 600px;
-    top: 0px;
-    right: 100px;
+    width:40%;
 }
+
 .third{
-    position: absolute;
-    width: 600px;
-    left: 50px;
-    top: 220px;
+    width:40%;
 }
 .fourth{
-    position: absolute;
-    width: 600px;
-    top: 220px;
-    right: 100px;
+    width:40%;
+}
+
+/* giving css properties to class top and head1 */
+.top{
+    font-size: 50px;
+    margin-left: 90px;
 }
 .head1{
     font-weight: bold;
